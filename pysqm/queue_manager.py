@@ -1,7 +1,7 @@
 import subprocess
 import time
 
-from pysqm.slurm_job import SlurmJob
+from pysqm.jobs import SlurmJob
 
 
 class SlurmQueueManager:
