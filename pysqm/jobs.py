@@ -3,7 +3,7 @@ import subprocess
 from dataclasses import dataclass
 from typing import override
 
-from pysqm.slurm_options import SlurmOptions
+from pysqm.options import SlurmOptions
 
 
 @dataclass(frozen=True)
